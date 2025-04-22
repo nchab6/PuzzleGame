@@ -1,0 +1,29 @@
+BODY {
+	background: #B0C4DE
+}
+
+.tile1, .tile2, .tile3, .tile4, .tile5, .tile6, .tile7, .tile8, .tile9 {
+	display: table-cell;
+	width: 250px;
+	height: 250px;
+	border: 1px solid white;
+	background: url("images/sunset_photo.png");
+	cursor: pointer;
+}
+
+#table {
+    margin: 50px auto; /* Centers the puzzle */
+    display: table;
+}
+
+.tile1 { background-position: 0px 0px; }
+.tile2 { background-position: -250px 0px; }
+.tile3 { background-position: -500px 0px; }
+
+.tile4 { background-position: 0px -250px; }
+.tile5 { background-position: -250px -250px; }
+.tile6 { background-position: -500px -250px; }
+
+.tile7 { background-position: 0px -500px; }
+.tile8 { background-position: -250px -500px; }
+.tile9 { background: white; cursor: default; } /* Empty tile */
